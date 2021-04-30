@@ -1,21 +1,41 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
-  background-color: linear-gradient(to bottom right, #202124, #292a2d);
-}
+$navbar-background-color: #202124;
+$container-background-color: #292a2d;
+$container-gradient-background-color: linear-gradient(to bottom right, #202124, #292a2d);
+$hover-selected: #8b5fe9;
+$paragraph-primary: #d6dae6;
+$paragraph-secondary: #8b5fe9;
+$title: #aec1d0;
+$info: #6e8899;
+$box-gradient: linear-gradient(to bottom right, #8b5fe9, #6435c9);
+$github-activity-01: #d1bff6;
+$github-activity-02: #b99ff2;
+$github-activity-03: #a27fed;
+$github-activity-04: #8b5fe9;
+$github-activity-05: #6847af;
+$github-activity-blank: #47484c;
+$icon: #aec1d0;
+$icon-hover-selected: #8b5fe9;
+$primary-title-font: "Varela Round", sans-serif;
+$secondary-title-font: "Archivo", sans-serif;
+$body-font: "Varela Round", sans-serif;
 
 .container {
-  background-color: linear-gradient(to bottom right, #202124, #292a2d);
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.redirect-box {
+  color: var(--title);
+  font-size: 1.9rem;
+  font-family: var(--primary-title-font);
+  background-color: var(--box-gradient);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1.5rem;
 }
 
-* {
-  box-sizing: border-box;
+.footer-bar,
+.side-navbar {
+  background-color: var(--navbar-background-color);
 }

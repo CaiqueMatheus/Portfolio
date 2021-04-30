@@ -1,0 +1,22 @@
+@import "../../styles/global.scss";
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: $navbar-background-color !important;
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0 0 0 1rem;
+        color: $icon;
+        :active {
+            color: $icon-hover-selected;
+        }
+        :hover {
+            color: $icon-hover-selected;
+        }
+    }
+}
