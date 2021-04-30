@@ -1,0 +1,13 @@
+@import "../styles/global.scss";
+
+.container {
+  height: 93vh;
+  margin-left: 16%;
+  background-color: $container-gradient;
+}
+
+.navbar {
+  width: 16%;
+  height: 100vh;
+  background-color: red;
+}

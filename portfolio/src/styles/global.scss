@@ -1,23 +1,53 @@
-$navbar-background-color: #202124;
-$container-background-color: #292a2d;
-$container-gradient-background-color: linear-gradient(to bottom right, #202124, #292a2d);
-$hover-selected: #8b5fe9;
-$paragraph-primary: #d6dae6;
-$paragraph-secondary: #8b5fe9;
-$title: #aec1d0;
-$info: #6e8899;
-$box-gradient: linear-gradient(to bottom right, #8b5fe9, #6435c9);
-$github-activity-01: #d1bff6;
-$github-activity-02: #b99ff2;
-$github-activity-03: #a27fed;
-$github-activity-04: #8b5fe9;
-$github-activity-05: #6847af;
-$github-activity-blank: #47484c;
-$icon: #aec1d0;
-$icon-hover-selected: #8b5fe9;
-$primary-title-font: "Varela Round", sans-serif;
-$secondary-title-font: "Archivo", sans-serif;
-$body-font: "Varela Round", sans-serif;
+/* FONTS */
+$primary-title-font: "Varela Round", sans-serif !important;
+$secondary-title-font: "Archivo", sans-serif !important;
+$body-font: "Varela Round", sans-serif !important;
+
+/* COLORS */
+$violet-01: #d1bff6;
+$violet-02: #b99ff2;
+$violet-03: #a27fed;
+$violet-04: #8b5fe9;
+$violet-05: #6847af;
+$violet-06: #6435c9;
+$gray-01: #d6dae6;
+$gray-02: #aec1d0;
+$gray-03: #6e8899;
+$gray-04: #47484c;
+$gray-05: #292a2d;
+$gray-06: #202124;
+
+/* NAVBAR */
+$nav-item: $gray-02;
+$navbar-background: $gray-06;
+$background-hover: $gray-05;
+
+/* ALL TEXT */
+$paragraph-primary: $gray-01;
+$paragraph-secondary: $violet-04;
+$title: $gray-02;
+$info: $gray-03;
+
+/* GRADIENTS */
+$violet-gradient: linear-gradient(to bottom right, $violet-04, $violet-06);
+$container-gradient: linear-gradient(to bottom right, $gray-06, $gray-05);
+
+/* EFFECTS */
+$hover: $violet-04;
+$active: $violet-04;
+
+/* GITHUB */
+$github-activity-01: $violet-01;
+$github-activity-02: $violet-02;
+$github-activity-03: $violet-03;
+$github-activity-04: $violet-04;
+$github-activity-05: $violet-05;
+$github-activity-blank: $gray-04;
+
+/* SOCIAL ICONS */
+$icon: $gray-02;
+$icon-hover: $violet-04;
+$icon-selected: $violet-04;
 
 .container {
   padding: 0;
@@ -33,9 +63,4 @@ $body-font: "Varela Round", sans-serif;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1.5rem;
-}
-
-.footer-bar,
-.side-navbar {
-  background-color: var(--navbar-background-color);
 }
