@@ -79,6 +79,7 @@ export default function footer() {
           </a>
         </Link>
       </div>
+      <div className="spacer" />
     </div>
   );
 }
