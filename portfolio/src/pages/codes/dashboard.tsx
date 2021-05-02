@@ -1,16 +1,13 @@
 import { GetStaticProps } from "next";
 import { api } from "../../services/api";
 import { format, parseISO } from "date-fns";
-import styles from "./home.module.scss";
+import styles from "./codes.module.scss";
+import React from "react";
+import Working from "../../components/codes/boxes/working/working";
 
 type User = {
   nickname: string;
   description: string;
-  photo: string;
-};
-
-type Member = {
-  nickname: string;
   photo: string;
 };
 
@@ -22,17 +19,6 @@ type Repository = {
 type Contribuition = {
   totalCommits: string;
   topRepoList: Repository[];
-};
-
-type WorkingCard = {
-  projectName: string;
-  platform: string;
-  technologies: string[];
-  members: Member[];
-  progress: string;
-  timeEstimated: string;
-  leftTime: string;
-  public: boolean;
 };
 
 type ProfileCard = {
@@ -48,9 +34,10 @@ export default function home(ProfileCard, WorkingCard) {
     <div className={styles.container}>
       <section className={styles.board}>
         <div className={styles.working}>
-          <div className={styles.card}>
-            <h3></h3>
-          </div>
+          <Working />
+          <Working />
+          <Working />
+          <Working />
         </div>
         <div className={styles.infos}>
           <div className={styles.commits}>
