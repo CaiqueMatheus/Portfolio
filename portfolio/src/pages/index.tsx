@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <section className={styles.container}>
         <h1>
-          <Link href="/posts/first-post"> Learn </Link> Next.js!
+          <Link href="#"> Learn </Link> Next.js!
         </h1>
         <Button color="danger">Danger!</Button>
       </section>
