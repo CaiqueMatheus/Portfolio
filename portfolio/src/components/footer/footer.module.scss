@@ -1,0 +1,25 @@
+@import "../../styles/global.scss";
+
+.footer {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    width: 89%;
+    bottom: 0;
+    right: 0;
+    padding: 0.9rem;
+    background-color: $navbar-background;
+    .icons {
+        display: flex;
+        flex-direction: row-reverse;
+
+        margin: 0 0 0 1rem;
+        color: $icon;
+        :active {
+            color: $active;
+        }
+        :hover {
+            color: $hover;
+        }
+    }
+}

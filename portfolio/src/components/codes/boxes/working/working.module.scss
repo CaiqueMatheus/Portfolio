@@ -1,0 +1,76 @@
+@import "../../../../styles/global.scss";
+
+.box {
+  width: 15rem;
+  height: auto;
+  background-color: $gray-06;
+  border: 2px solid $gray-03;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.titles {
+  h2 {
+    font-size: 1rem;
+    color: $gray-02;
+    padding-bottom: 0;
+    line-height: 0.5;
+    font-family: $secondary-title-font;
+  }
+  h3 {
+    font-size: 0.8rem;
+    color: $violet-04;
+    font-family: $primary-title-font;
+  }
+}
+.minicard {
+  display: flex;
+  flex-direction: column;
+  width: 2.3rem;
+  height: auto;
+  background-color: $gray-01;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  :hover {
+    background-color: $gray-03;
+    border-radius: 0.4rem;
+  }
+}
+.minicard {
+  p {
+    line-height: 0;
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .icons {
+    color: $gray-05;
+    margin-top: 0.3rem;
+  }
+}
+
+.body {
+  .members {
+    display: flex;
+    flex-direction: column;
+    p {
+      padding-top: 1em;
+      font-size: 0.8rem;
+      color: $gray-02;
+      font-family: $primary-title-font;
+      line-height: 0;
+    }
+    .images {
+      display: flex;
+      flex-direction: row;
+      padding-right: 1rem;
+    }
+  }
+}

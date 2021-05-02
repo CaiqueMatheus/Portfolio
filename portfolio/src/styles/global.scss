@@ -1,21 +1,60 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
-  background-color: linear-gradient(to bottom right, #202124, #292a2d);
-}
+/* FONTS */
+$primary-title-font: "Varela Round", sans-serif !important;
+$secondary-title-font: "Archivo", sans-serif !important;
+$body-font: "Varela Round", sans-serif !important;
 
-.container {
-  background-color: linear-gradient(to bottom right, #202124, #292a2d);
-}
+/* COLORS */
+$violet-01: #d1bff6;
+$violet-02: #b99ff2;
+$violet-03: #a27fed;
+$violet-04: #8b5fe9;
+$violet-05: #6847af;
+$violet-06: #6435c9;
+$gray-01: #d6dae6;
+$gray-02: #aec1d0;
+$gray-03: #6e8899;
+$gray-04: #47484c;
+$gray-05: #292a2d;
+$gray-06: #202124;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* NAVBAR */
+$nav-item: $gray-02;
+$navbar-background: $gray-06;
+$background-hover: $gray-05;
 
-* {
-  box-sizing: border-box;
+/* ALL TEXT */
+$paragraph-primary: $gray-01;
+$paragraph-secondary: $violet-04;
+$title: $gray-02;
+$info: $gray-03;
+
+/* GRADIENTS */
+$violet-gradient: linear-gradient(to bottom right, $violet-04, $violet-06);
+$container-gradient: linear-gradient(to bottom right, $gray-06, $gray-05);
+
+/* EFFECTS */
+$hover: $violet-04;
+$active: $violet-04;
+
+/* GITHUB */
+$github-activity-01: $violet-01;
+$github-activity-02: $violet-02;
+$github-activity-03: $violet-03;
+$github-activity-04: $violet-04;
+$github-activity-05: $violet-05;
+$github-activity-blank: $gray-04;
+
+/* SOCIAL ICONS */
+$icon: $gray-02;
+$icon-hover: $violet-04;
+$icon-selected: $violet-04;
+
+.redirect-box {
+  color: var(--title);
+  font-size: 1.9rem;
+  font-family: var(--primary-title-font);
+  background-color: var(--box-gradient);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1.5rem;
 }
