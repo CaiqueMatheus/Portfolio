@@ -14,13 +14,16 @@
   .nav ul {
     list-style: none;
     padding-left: 0;
-    a::hover {
-      color: $hover;
-    }
-    li:active {
-      color: $active;
-      background-color: $background-hover;
-      border-radius: 0.6rem;
+    a {
+      text-decoration: none;
+      :hover {
+        color: $hover;
+      }
+      :active {
+        color: $active;
+        background-color: $background-hover;
+        border-radius: 0.6rem;
+      }
     }
   }
   .nav ul li {
@@ -29,6 +32,12 @@
     color: $nav-item;
     padding-left: 1.2rem;
   }
+}
+
+.active {
+  color: $active;
+  background-color: $background-hover;
+  border-radius: 0.6rem;
 }
 
 .spacer {
