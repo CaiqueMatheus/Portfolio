@@ -1,5 +1,5 @@
 import styles from "./side-navbar.module.scss";
-import ActiveLink from "../../services/ActiveLink";
+import ActiveLink from "../services/ActiveLink";
 import React from "react";
 import { useRouter } from "next/router";
 

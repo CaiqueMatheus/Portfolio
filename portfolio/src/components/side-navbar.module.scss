@@ -1,12 +1,10 @@
-@import "../../styles/global.scss";
-
 .sideNavbar {
   height: 100vh;
   position: fixed;
   width: 11%;
   left: 0;
   top: 0;
-  background-color: $navbar-background;
+  background-color: var(--navbar);
   padding: 1rem;
   .nav {
     margin-top: 1.2rem;
@@ -17,33 +15,33 @@
     a {
       text-decoration: none;
       :hover {
-        color: $hover;
+        color: var(--hover);
       }
       :active {
-        color: $active;
-        background-color: $background-hover;
+        color: var(--active);
+        background-color: var(--nav-item-bg-hover);
         border-radius: 0.6rem;
       }
     }
   }
   .nav ul li {
     font-size: 1.2rem;
-    font-family: $body-font;
-    color: $nav-item;
+    font-family: var(--varela);
+    color: var(--nav-item);
     padding-left: 1.2rem;
   }
 }
 
 .active {
-  color: $active;
-  background-color: $background-hover;
+  color: var(--active);
+  background-color: var(--nav-item-bg-hover);
   border-radius: 0.6rem;
 }
 
 .spacer {
   width: 88%;
   height: 2px;
-  background-color: $gray-04;
+  background-color: var(--gray-400);
   opacity: 0.3;
   margin-top: 1rem;
   margin-bottom: 1rem;

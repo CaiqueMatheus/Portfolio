@@ -1,8 +1,7 @@
-import styles from "./pages.module.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "../components/footer/footer";
+import '../styles/global.scss';
+import Footer from "../components/footer";
 import React from "react";
-import SideNavbar from "../components/side-navbar/side-navbar";
+import SideNavbar from "../components/side-navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
