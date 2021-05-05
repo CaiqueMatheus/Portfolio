@@ -2,29 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
---root {
-  --nav-item: #aec1d0;
-  --nav-item-text-hover: #8b5fe9;
-  --nav-item-bg-hover: #292a2d;
-  --navbar: #202124;
-
-  --p-primary: #d6dae6;
-  --p-secondary: #8b5fe9;
-
-  --title: #d6dae6;
-  --subtitle: #aec1d0;
-  --description: #6e8899;
-
-  --hover: #8b5fe9;
-  --active: #8b5fe9;
-
-  --icon: #aec1d0;
-  --icon-hover: #8b5fe9;
-  --icon-selected: #8b5fe9;
-}
-
-/* GRADIENTS */
-
 .redirect-box {
   color: var(--title);
   font-size: 1.9rem;

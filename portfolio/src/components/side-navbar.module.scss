@@ -1,48 +1,26 @@
-.sideNavbar {
-  height: 100vh;
-  position: fixed;
-  width: 11%;
-  left: 0;
-  top: 0;
-  background-color: var(--navbar);
-  padding: 1rem;
-  .nav {
-    margin-top: 1.2rem;
-  }
-  .nav ul {
-    list-style: none;
-    padding-left: 0;
-    a {
-      text-decoration: none;
-      :hover {
-        color: var(--hover);
-      }
-      :active {
-        color: var(--active);
-        background-color: var(--nav-item-bg-hover);
-        border-radius: 0.6rem;
-      }
-    }
-  }
-  .nav ul li {
-    font-size: 1.2rem;
-    font-family: var(--varela);
-    color: var(--nav-item);
-    padding-left: 1.2rem;
-  }
-}
-
 .active {
-  color: var(--active);
-  background-color: var(--nav-item-bg-hover);
-  border-radius: 0.6rem;
+  @apply text-violet;
+  @apply bg-gray-500;
+  @apply rounded-lg;
 }
 
 .spacer {
-  width: 88%;
   height: 2px;
-  background-color: var(--gray-400);
-  opacity: 0.3;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  @apply w-36;
+  @apply mt-5;
+  @apply mb-5;
+  @apply bg-gray-400;
+  @apply bg-opacity-50;
+}
+
+.navHover {
+  :hover {
+    @apply bg-gray-500;
+    @apply text-violet;
+  }
+}
+
+.navItem {
+  @apply pl-2;
+  @apply rounded-xl;
 }

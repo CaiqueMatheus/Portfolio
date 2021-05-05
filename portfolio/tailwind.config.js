@@ -1,5 +1,5 @@
 module.exports = {
-  prefix: 'tw-',
+  //prefix: 'tw-',
   purge: ['./pages/**/*.{tsx}', './components/**/*.{tsx}'],
   future: {
     removeDeprecatedGapUtilities: true,
