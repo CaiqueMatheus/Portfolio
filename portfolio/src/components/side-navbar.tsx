@@ -4,6 +4,7 @@ import React from "react";
 import { useRouter } from "next/router";
 
 export default function sideNavbar() {
+  const router = useRouter()
   return (
     <section className="md:fixed h-screen w-56 top-0 left-0 p-4 ">
       <div className="m-4">

@@ -19,3 +19,11 @@
 .theme-dark {
   background-color: violet-100;
 }
+
+body {
+  @apply bg-gray;
+}
+
+h1 {
+  @apply text-gray-300;
+}
