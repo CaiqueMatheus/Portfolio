@@ -22,7 +22,7 @@ module.exports = {
       
     },
     screens: {
-      'xs': { 'min:': '475px', 'max': '639px'},
+      'xs': { 'min:': '375px', 'max': '639px'},
       ...defaultTheme.screens,
     },
     colors: {
@@ -58,7 +58,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active']
+    },
   },
   plugins: [
     require('tailwindcss-gradients'),
