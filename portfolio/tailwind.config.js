@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   //prefix: 'tw-',
   purge: ['./pages/**/*.{tsx}', './components/**/*.{tsx}'],
@@ -20,7 +22,8 @@ module.exports = {
       
     },
     screens: {
-      'xs': '475px',
+      'xs': { 'min:': '475px', 'max': '639px'},
+      ...defaultTheme.screens,
     },
     colors: {
       violet: {
