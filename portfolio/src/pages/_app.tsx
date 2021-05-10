@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <div>
-        <main className=".flex flex-row">
+        <main className="flex flex-row">
           <SideNavbar />
           <Component {...pageProps} />;
         </main>
