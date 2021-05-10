@@ -1,0 +1,27 @@
+.spacer {
+  height: 2px;
+  @apply w-36;
+  @apply mt-5;
+  @apply mb-5;
+  @apply bg-gray-400;
+  @apply bg-opacity-50;
+}
+
+.sidebar {
+  a {
+    :hover {
+      @apply bg-gray-500;
+      @apply text-violet;
+    }
+  }
+
+  li {
+    @apply pl-2;
+    @apply rounded-xl;
+  }
+  .active {
+    @apply text-violet;
+    @apply bg-gray-500;
+    @apply rounded-lg;
+  }
+}
