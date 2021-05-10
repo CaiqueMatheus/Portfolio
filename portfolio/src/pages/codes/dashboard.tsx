@@ -1,5 +1,5 @@
 import { GetStaticProps } from "next";
-import { api } from "../../services/api";
+import { api } from "../../services/Api";
 import { format, parseISO } from "date-fns";
 import styles from "./codes.module.scss";
 import React from "react";

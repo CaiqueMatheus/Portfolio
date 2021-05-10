@@ -22,57 +22,57 @@ library.add(
 
 export default function footer() {
   return (
-    <div className={styles.footer}>
-      <div className={styles.icons}>
+    <div className="flex fixed w-screen justify-end bottom-0 right-0 p-3.5">
+      <div className="icons">
         <Link href="https://www.facebook.com/CaiqueMatheusA/">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faFacebookSquare}
               size="lg"
             />
           </a>
         </Link>
         <Link href="https://www.instagram.com/eujovis/">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faInstagramSquare}
               size="lg"
             />
           </a>
         </Link>
         <Link href="https://www.facebook.com/CaiqueMatheusA/">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faLinkedin}
               size="lg"
             />
           </a>
         </Link>
         <Link href="https://www.behance.net/eujovis">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faBehanceSquare}
               size="lg"
             />
           </a>
         </Link>
         <Link href="https://www.artstation.com/eujovis">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faArtstation}
               size="lg"
             />
           </a>
         </Link>
         <Link href="https://github.com/caiqueazevedo">
-          <a target="_blank">
+          <a className="mr-4" target="_blank">
             <FontAwesomeIcon
-              className={styles.icons}
+              className="text-gray-200 hover:text-violet"
               icon={faGithub}
               size="lg"
             />
