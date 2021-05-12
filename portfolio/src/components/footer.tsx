@@ -22,7 +22,7 @@ library.add(
 
 export default function footer() {
   return (
-    <div className="flex fixed w-screen justify-end bottom-0 right-0 p-3.5">
+    <div className="flex fixed w-screen justify-end bottom-0 right-0 p-3.5 bg-gray">
       <div className="icons">
         <Link href="https://www.facebook.com/CaiqueMatheusA/">
           <a className="mr-4" target="_blank">
