@@ -23,7 +23,7 @@ type WorkingCard = {
 
 export default function Working() {
   return (
-    <div className="col-span-1 bg-gray-500 rounded-lg p-4 mt-4 shadow-lg h-auto font-varela ">
+    <div className="col-span-2 row-span-2 bg-gray-500 rounded-lg p-4 mt-4 shadow-md h-auto font-varela ">
       <div className="flex flex-row justify-between">
         <div>
           <h2 className="text-gray-200 font-archivo font-normal leading-none">
