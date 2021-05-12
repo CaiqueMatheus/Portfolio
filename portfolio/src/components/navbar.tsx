@@ -26,7 +26,7 @@ export default function sideNavbar() {
   return (
     <div>
       <nav className="bg-gray">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-1 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
@@ -87,63 +87,6 @@ export default function sideNavbar() {
                 </div>
               </div>
             </div>
-            <div className="icons">
-              <Link href="https://www.facebook.com/CaiqueMatheusA/">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faFacebookSquare}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-              <Link href="https://www.instagram.com/eujovis/">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faInstagramSquare}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-              <Link href="https://www.facebook.com/CaiqueMatheusA/">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faLinkedin}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-              <Link href="https://www.behance.net/eujovis">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faBehanceSquare}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-              <Link href="https://www.artstation.com/eujovis">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faArtstation}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-              <Link href="https://github.com/caiqueazevedo">
-                <a className="mr-4" target="_blank">
-                  <FontAwesomeIcon
-                    className="text-gray-200 hover:text-violet"
-                    icon={faGithub}
-                    size="lg"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="spacer" />
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
