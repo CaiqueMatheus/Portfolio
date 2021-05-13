@@ -13,15 +13,15 @@
 }
 
 .theme-light {
-  color: white;
+  @apply bg-gray-100;
 }
 
 .theme-dark {
-  background-color: violet-100;
+  @apply bg-gray
 }
 
 body {
-  @apply bg-gray;
+  @apply bg-gray-500;
 }
 
 h1 {

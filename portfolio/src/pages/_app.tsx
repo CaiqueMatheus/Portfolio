@@ -2,16 +2,19 @@ import "../styles/global.scss";
 import "../../tailwind.config";
 import Footer from "../components/footer";
 import React from "react";
-import SideNavbar from "../components/side-navbar";
+import Navbar from "../components/navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <SideNavbar />
-      <main className="container-fluid ml-48">
-        <Component {...pageProps} />;
-      </main>
-      <Footer />
+      <div>
+      <Navbar />
+        <main className="flex flex-row">
+          
+          <Component {...pageProps} />;
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
