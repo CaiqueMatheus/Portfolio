@@ -9,9 +9,8 @@ function MyApp({ Component, pageProps }) {
     <div>
       <div>
       <Navbar />
-        <main className="flex flex-row">
-          
-          <Component {...pageProps} />;
+        <main className="flex flex-row">          
+          <Component {...pageProps} />
         </main>
         <Footer />
       </div>

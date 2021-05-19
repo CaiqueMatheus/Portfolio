@@ -75,7 +75,7 @@ export default function sideNavbar() {
                       Designs
                     </a>
                   </Link>
-                  <Link href="/#">
+                  <Link href="/contact">
                     <a
                       href="#"
                       className="text-gray-200 hover:bg-gray-500 hover:text-violet-300
