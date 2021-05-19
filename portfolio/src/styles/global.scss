@@ -13,17 +13,87 @@
 }
 
 .theme-light {
-  color: white;
+  @apply bg-gray-100;
 }
 
 .theme-dark {
-  background-color: violet-100;
+  @apply bg-gray;
 }
 
 body {
-  @apply bg-gray;
+  @apply bg-gray-500;
 }
 
 h1 {
   @apply text-gray-300;
+}
+
+@layer base {
+  form {
+    label {
+      @apply text-lg;
+      @apply text-gray-200;
+      @apply mt-2;
+    }
+    span {
+      @apply text-violet-300;
+    }
+    input {
+      background-color: rgba(0, 0, 0, 0);
+      @apply border-b-2;
+      @apply rounded-sm;
+      @apply focus:outline-none focus:border-violet;
+      @apply text-violet;
+      @apply text-sm;
+    }
+    .form-content {
+      @apply justify-between;
+      @apply mb-4;
+    }
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+      appearance: none;
+      webkit-appearance: none;
+    }
+
+    input[type="checkbox"] {
+      appearance: none;
+      webkit-appearance: none;
+      border: none;
+      @apply w-4 h-4;
+      @apply bg-gray-500;
+      @apply text-violet;
+      @apply text-lg;
+      @apply text-gray-300;
+      @apply mr-1;
+    }
+
+    input[type="checkbox"]:checked {
+      @apply border-gray-300 border-4;
+      @apply w-4 h-4;
+      @apply bg-violet;
+    }
+
+    input[type="checkbox"]:checked + label {
+      @apply text-violet;
+      @apply mx-2;
+    }
+
+    textarea::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      @apply bg-gray-400;
+      @apply rounded-md;
+    }
+
+    textarea::-webkit-scrollbar {
+      width: 10px;
+      @apply bg-gray-400;
+      @apply rounded-md;
+    }
+
+    textarea::-webkit-scrollbar-thumb {
+      @apply bg-violet;
+      @apply rounded-md;
+    }
+  }
 }
